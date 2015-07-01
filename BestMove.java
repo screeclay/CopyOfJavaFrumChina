@@ -58,8 +58,8 @@ class BestMove{
 		}else {
 			for (int i =0;i<8;i++){
 				for (int j =0; j < 4;j++){
-					if (board[i][j]=='o')
-					pieces.add(new Piece(i,j, 3));
+					if (board[i][j]=='o') // comment2
+					pieces.add(new Piece(i,j, 3)); // comment1
 					
 					else if (board[i][j]=='O')
 					pieces.add(new Piece(i,j, 4));
