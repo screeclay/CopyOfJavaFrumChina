@@ -76,7 +76,7 @@ class BestMove{
 			
 			System.out.print(board[i][0]);
 			System.out.print(board[i][1]);
-			System.out.print(board[i][2]);
+			System.out.print(board[i][2]); // DODANE W MASTERZE I TYLKO W MASTERZE!
 			System.out.println(board[i][3]);
 		}
 		ArrayList<Piece> pieces;
