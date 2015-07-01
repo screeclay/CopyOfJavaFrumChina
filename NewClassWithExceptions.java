@@ -1,4 +1,6 @@
 
 public class NewClassWithExceptions extends Exception{
-	@Override
+	public void LASSOlol(){
+		System.out.println(77);
+	}
 }
