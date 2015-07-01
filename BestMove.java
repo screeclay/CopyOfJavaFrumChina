@@ -8,7 +8,7 @@ class Piece{
 	int i,j;
 }
 class BestMove{
-	static int[][] board;
+	static int[][] boardER;
 	public static int[][] readBoard(String boardfile) throws IOException{
 		//int[][] board=new int[8][4];
 		board=  new int[8][4];
