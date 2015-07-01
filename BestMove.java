@@ -9,8 +9,9 @@ class Piece{
 }
 class BestMove{
 	static int[][] boardER;
+	static int[][] board=new int[8][4];
 	public static int[][] readBoard(String boardfile) throws IOException{
-		//int[][] board=new int[8][4];
+		
 		board=  new int[8][4];
 		BufferedReader br = new BufferedReader(new FileReader(boardfile));
 		for (int i =0; i < 8;i++){
