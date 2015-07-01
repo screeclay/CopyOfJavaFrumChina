@@ -72,13 +72,6 @@ class BestMove{
 	}
 	public static void main(String args[]) throws IOException{
 		int [][] board=readBoard("checkers.txt");
-		for (int i =0; i < 8;i++){
-			
-			System.out.print(board[i][0]);
-			System.out.print(board[i][1]);
-			System.out.print(board[i][2]); // DODANE W MASTERZE I TYLKO W MASTERZE!
-			System.out.println(board[i][3]);
-		}
 		ArrayList<Piece> pieces;
 		System.out.println(pieces= getPieces(true));
 		for (Piece piece : pieces) {
